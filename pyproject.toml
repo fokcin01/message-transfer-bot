@@ -21,7 +21,7 @@ requires = ["hatchling>=1.27,<2"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/message_bridge"]
+packages = ["src/message_transfer"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
